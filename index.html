@@ -136,13 +136,20 @@
       </div>
 
       <!-- ==========================================================================
-           THE HERO STAGE: Cream Rounded Card + Grid + Portrait + Sticker Badges
+           THE HERO STAGE: Cream Rounded Card + Grid + 3D Render + 3D Sticker Badges
            ========================================================================== -->
       <div class="hero-stage-container" id="heroStage">
+        
+        <!-- Interactive 3D Perspective Switcher -->
+        <div class="stage-3d-toggle-bar">
+          <button class="stage-toggle-btn active" data-img="assets/images/developer_3d_bust.jpg">3D Profile</button>
+          <button class="stage-toggle-btn" data-img="assets/images/developer_3d_full.jpg">3D Full Body</button>
+          <button class="stage-toggle-btn" data-img="assets/images/flutter_hero_visual.jpg">3D Engine</button>
+        </div>
 
-        <!-- Center Developer Portrait -->
+        <!-- Center 3D Developer Render -->
         <div class="stage-portrait-wrapper">
-          <img src="assets/images/developer_portrait.jpg" alt="Muhammed Faizal M - Flutter Developer"
+          <img src="assets/images/developer_3d_bust.jpg" alt="Muhammed Faizal M - 3D Flutter Developer" id="heroPortraitImg"
             class="stage-portrait-img">
         </div>
 
@@ -180,8 +187,8 @@
         <!-- STICKER 4: Hot Pink Badge (Mobile Experience Design) -->
         <div class="sticker sticker-pink-badge" title="Intuitive Mobile Experience">
           <div>MOBILE</div>
-          <div>EXPERIENCE</div>
-          <div style="font-size: 1.1rem; margin-top: 2px;">ENGINEERING &copy;</div>
+          <div>EXPER&mdash;IENCE</div>
+          <div style="font-size: 1.05rem; margin-top: 2px;">ENGINEERING &copy;</div>
         </div>
 
         <!-- STICKER 5: Mint Tag (Scalable Architecture '26) -->
