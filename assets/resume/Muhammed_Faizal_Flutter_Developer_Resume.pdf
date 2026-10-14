@@ -1,0 +1,360 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /Name /F1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /Name /F2 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 4002 >>
+stream
+BT
+/F2 20 Tf
+40 750 Td
+(MUHAMMED FAIZAL M) Tj
+ET
+
+BT
+/F1 11 Tf
+40 732 Td
+0.35 0.55 1 rg
+(FLUTTER DEVELOPER | MOBILE APP ENGINEER) Tj
+0 0 0 rg
+ET
+
+BT
+/F1 9 Tf
+40 715 Td
+(Email: mhdfaizalofficial@gmail.com   |   Phone: +91 8075374600   |   Location: Kerala, India) Tj
+ET
+
+BT
+/F1 9 Tf
+40 702 Td
+(LinkedIn: linkedin.com/in/muhammed-faizal-flutter   |   GitHub: github.com/muhammedfaizalm) Tj
+ET
+
+% Line separator
+0.7 0.7 0.7 RG
+1 w
+40 690 m 570 690 l S
+
+% Professional Summary
+BT
+/F2 12 Tf
+40 670 Td
+(PROFESSIONAL SUMMARY) Tj
+ET
+
+BT
+/F1 9 Tf
+40 655 Td
+(Flutter Developer with professional experience building scalable, cross-platform mobile applications.) Tj
+40 643 Td
+(Specialized in Flutter, Dart, Firebase, REST API integration, state management (GetX, Provider, BLoC),) Tj
+40 631 Td
+(and clean architecture. Passionate about solving real-world problems with intuitive UI/UX and high performance.) Tj
+ET
+
+% Core Competencies / Technical Skills
+BT
+/F2 12 Tf
+40 608 Td
+(TECHNICAL SKILLS) Tj
+ET
+
+BT
+/F2 9 Tf
+40 592 Td
+(Languages: ) Tj
+/F1 9 Tf
+(Dart, Java, C, JavaScript, HTML5, CSS3) Tj
+ET
+
+BT
+/F2 9 Tf
+40 578 Td
+(Frameworks & Mobile: ) Tj
+/F1 9 Tf
+(Flutter SDK, Android Studio, Cross-Platform Development, REST APIs) Tj
+ET
+
+BT
+/F2 9 Tf
+40 564 Td
+(State Management: ) Tj
+/F1 9 Tf
+(GetX, Provider, BLoC Pattern) Tj
+ET
+
+BT
+/F2 9 Tf
+40 550 Td
+(Databases & Storage: ) Tj
+/F1 9 Tf
+(Cloud Firestore, Firebase Realtime Database, SQLite, Hive, SharedPreferences, MySQL) Tj
+ET
+
+BT
+/F2 9 Tf
+40 536 Td
+(Tools & Platforms: ) Tj
+/F1 9 Tf
+(Git, GitHub, Postman, Android Studio, VS Code, Figma) Tj
+ET
+
+BT
+/F2 9 Tf
+40 522 Td
+(Development Practices: ) Tj
+/F1 9 Tf
+(Clean Architecture, MVC, API Integration, JSON Parsing, Performance Optimization, OOP) Tj
+ET
+
+% Work Experience
+BT
+/F2 12 Tf
+40 495 Td
+(PROFESSIONAL EXPERIENCE) Tj
+ET
+
+BT
+/F2 10 Tf
+40 478 Td
+(Software Developer (Flutter)) Tj
+/F1 9 Tf
+40 464 Td
+(Softroniics Technologies  |  September 2024 - Present) Tj
+ET
+
+BT
+/F1 9 Tf
+50 448 Td
+(- Developed and maintained scalable, responsive mobile applications using Flutter and Dart.) Tj
+50 435 Td
+(- Applied clean architecture and modular design principles for testable and maintainable codebases.) Tj
+50 422 Td
+(- Implemented robust state management solutions utilizing GetX, Provider, and BLoC patterns.) Tj
+50 409 Td
+(- Integrated Firebase Authentication, Cloud Firestore, Cloud Messaging (FCM), and Firebase Storage.) Tj
+50 396 Td
+(- Built and consumed RESTful APIs with JSON serialization, caching, and error-handling strategies.) Tj
+50 383 Td
+(- Optimized Flutter UI rendering, memory footprints, and frame rates for smooth 60fps animations.) Tj
+50 370 Td
+(- Collaborated closely with UI/UX designers using Figma to implement pixel-perfect layouts.) Tj
+50 357 Td
+(- Participated in code reviews, sprint planning, and agile software development workflows.) Tj
+ET
+
+BT
+/F2 10 Tf
+40 332 Td
+(Flutter Developer Intern) Tj
+/F1 9 Tf
+40 318 Td
+(Mentorow Technologies  |  Kochi, Kerala  |  February 2024 - July 2024) Tj
+ET
+
+BT
+/F1 9 Tf
+50 302 Td
+(- Built cross-platform Flutter applications and modular, reusable UI component libraries.) Tj
+50 289 Td
+(- Learned and implemented end-to-end Firebase backend integration and authentication flows.) Tj
+50 276 Td
+(- Worked with REST API client communication, data modeling, and asynchronous programming in Dart.) Tj
+50 263 Td
+(- Practiced clean architecture, MVC structures, and collaborative version control using Git & GitHub.) Tj
+ET
+
+% Education
+BT
+/F2 12 Tf
+40 238 Td
+(EDUCATION & TRAINING) Tj
+ET
+
+BT
+/F2 9.5 Tf
+40 220 Td
+(Flutter Development Program) Tj
+/F1 9 Tf
+40 207 Td
+(Brototype, Trivandrum  |  March 2023 - December 2023) Tj
+40 195 Td
+(Intensive hands-on practical curriculum focusing on Flutter, Dart, Clean Architecture, and real applications.) Tj
+ET
+
+BT
+/F2 9.5 Tf
+40 173 Td
+(Bachelor's Degree) Tj
+/F1 9 Tf
+40 160 Td
+(Travancore College, Trivandrum  |  2018 - 2021) Tj
+ET
+
+BT
+/F1 8 Tf
+220 50 Td
+(Page 1 of 2  -  Muhammed Faizal M | Flutter Developer Resume) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 3949 >>
+stream
+BT
+/F2 14 Tf
+40 750 Td
+(FEATURED PROJECTS PORTFOLIO) Tj
+ET
+
+0.7 0.7 0.7 RG
+1 w
+40 740 m 570 740 l S
+
+% Project 1: Blessing App
+BT
+/F2 11 Tf
+40 718 Td
+(1. Blessing App  -  Islamic Lifestyle Companion) Tj
+/F1 8.5 Tf
+40 704 Td
+(Technologies: Flutter, Dart, Clean Architecture, REST APIs, Local Notifications, Geolocation) Tj
+50 688 Td
+(- Developed a comprehensive mobile companion application supporting daily routines and spiritual activities.) Tj
+50 675 Td
+(- Engineered location-based automated prayer time tracking with high astronomical precision.) Tj
+50 662 Td
+(- Built fasting tracker with daily reminders, milestone progress monitoring, and notification schedules.) Tj
+50 649 Td
+(- Implemented structured Quran reading module with offline reading capability and bookmarking.) Tj
+50 636 Td
+(- Designed responsive, intuitive UI following clean architecture for long-term scalability.) Tj
+ET
+
+% Project 2: NCC Management App
+BT
+/F2 11 Tf
+40 608 Td
+(2. NCC Management App  -  Cadet & Officer Communication Portal) Tj
+/F1 8.5 Tf
+40 594 Td
+(Technologies: Flutter, Dart, Firebase Firestore, Firebase Authentication, Cloud Messaging) Tj
+50 578 Td
+(- Streamlined communication and operational workflows between NCC officers and registered cadets.) Tj
+50 565 Td
+(- Built digital cadet attendance tracking system with instant daily and parade reports.) Tj
+50 552 Td
+(- Implemented real-time update channels and announcements powered by Firebase Cloud Firestore.) Tj
+50 539 Td
+(- Enforced secure role-based authentication and granular permission boundaries.) Tj
+ET
+
+% Project 3: Expenxo
+BT
+/F2 11 Tf
+40 511 Td
+(3. Expenxo  -  Personal Expense & Budget Tracker) Tj
+/F1 8.5 Tf
+40 497 Td
+(Technologies: Flutter, Dart, Hive, SQLite, Provider/GetX, Interactive Charts) Tj
+50 481 Td
+(- Created an intuitive financial management app for seamless daily and monthly expense tracking.) Tj
+50 468 Td
+(- Categorized spending with interactive analytics dashboards, charts, and financial health insights.) Tj
+50 455 Td
+(- Implemented lightning-fast offline-first local persistence utilizing Hive database and SQLite.) Tj
+50 442 Td
+(- Features customizable category management, budget caps, and multi-format transaction exports.) Tj
+ET
+
+% Project 4: Chatifly
+BT
+/F2 11 Tf
+40 414 Td
+(4. Chatifly  -  Real-Time Chat & Collaboration Application) Tj
+/F1 8.5 Tf
+40 400 Td
+(Technologies: Flutter, Dart, Firebase Firestore, Firebase Auth, FCM, Clean Architecture) Tj
+50 384 Td
+(- Engineered a high-performance messaging application supporting one-to-one and group discussions.) Tj
+50 371 Td
+(- Integrated Firebase Authentication and real-time Firestore listeners for instant message delivery.) Tj
+50 358 Td
+(- Added push notifications using Firebase Cloud Messaging (FCM) for active user engagement.) Tj
+50 345 Td
+(- Structured codebase with clean architecture and separation of concerns for testability.) Tj
+ET
+
+% Project 5: AutoResQ
+BT
+/F2 11 Tf
+40 317 Td
+(5. AutoResQ  -  Emergency Roadside Assistance Application) Tj
+/F1 8.5 Tf
+40 303 Td
+(Technologies: Flutter, Dart, Google Maps API, Geolocation, REST APIs, Real-Time Notifications) Tj
+50 287 Td
+(- Designed an on-demand emergency assistance platform connecting stranded drivers with nearby mechanics.) Tj
+50 274 Td
+(- Implemented live interactive vehicle location tracking using Google Maps API & GPS.) Tj
+50 261 Td
+(- Built intelligent mechanic locator algorithm matching proximity and service availability.) Tj
+50 248 Td
+(- Integrated instant emergency alert triggers and real-time roadside service status updates.) Tj
+ET
+
+% Mini Projects
+BT
+/F2 11 Tf
+40 220 Td
+(ADDITIONAL MINI PROJECTS) Tj
+/F1 8.5 Tf
+40 205 Td
+(- Musico (Music Player App)   - QR Scanner (Fast Camera Scanner)   - Language Translator) Tj
+40 192 Td
+(- Weather App (OpenWeather API)   - Encrypta (Security & Ciphers)   - Currency Converter   - Bingo Game) Tj
+ET
+
+BT
+/F1 8 Tf
+220 50 Td
+(Page 2 of 2  -  Muhammed Faizal M | Flutter Developer Resume) Tj
+ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000104 00000 n 
+0000000167 00000 n 
+0000000247 00000 n 
+0000000332 00000 n 
+0000000468 00000 n 
+0000004522 00000 n 
+0000004658 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+8659
+%%EOF

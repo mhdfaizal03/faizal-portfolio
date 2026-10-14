@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Faizal M — Flutter Developer & Mobile App Engineer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Portfolio of Muhammed Faizal M — Senior Flutter Developer & Mobile App Engineer. Specializing in Flutter, Dart, Firebase, REST APIs, state management (GetX, Provider, BLoC), and Clean Architecture.">
+  <meta name="keywords"
+    content="Muhammed Faizal, Flutter Developer, Mobile App Engineer, Dart, Firebase, Android, iOS, Clean Architecture, BLoC, GetX, Provider, REST API, Portfolio">
+  <meta name="author" content="Muhammed Faizal M">
+  <meta name="theme-color" content="#0B0D11">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammed Faizal M — Flutter Developer Portfolio">
+  <meta property="og:description"
+    content="Scalable cross-platform mobile apps with Flutter, Dart, and Clean Architecture. Explore featured projects, technical skills, and experience.">
+  <meta property="og:image" content="assets/images/projects/blessing_app.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FFD026'><path d='M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zM14.314 11.23L8.6 16.944l3.7 3.7 3.7-3.7 5.684-5.714h-7.37z'/></svg>">
+
+  <!-- Google Fonts: Bebas Neue, Space Grotesk, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons: Bootstrap Icons, FontAwesome 6, Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Mobile Menu Backdrop -->
+  <div class="nav-backdrop"></div>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION BAR (Editorial Geometric Minimalist Layout)
+       ========================================================================== -->
+  <nav class="site-navbar" id="siteNavbar">
+    <div class="container nav-container">
+
+      <!-- Brand Logo: Pill Shape + Two-Line Developer Name -->
+      <a href="#home" class="nav-brand-editorial">
+        <span class="brand-capsule"></span>
+        <div class="brand-text-lines">
+          <span class="brand-name">Muhammed</span>
+          <span class="brand-role">Faizal M</span>
+        </div>
+      </a>
+
+      <!-- Right Nav Links -->
+      <div class="nav-menu-wrapper">
+        <ul class="nav-links-editorial">
+          <li><a href="#projects" class="nav-link-item">Work</a></li>
+          <li><a href="#about" class="nav-link-item">About</a></li>
+          <li><a href="#skills" class="nav-link-item">Skills</a></li>
+          <li><a href="#experience" class="nav-link-item">Experience</a></li>
+          <li><a href="#education" class="nav-link-item">Education</a></li>
+          <li><a href="#contact" class="nav-link-item">Contact</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2">
+          <button class="btn-brutalist btn-sm-brutalist" data-bs-toggle="modal" data-bs-target="#resumeModal">
+            Resume
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HERO SECTION (Bold Condensed Header + Editorial Text + Grid Stage + Stickers)
+       ========================================================================== -->
+  <section class="hero-editorial-section" id="home">
+    <div class="container">
+
+      <!-- Giant Headline: FLUTTER DEVELOPER -->
+      <h1 class="hero-giant-title">
+        FLUTTER DEVELOPER
+      </h1>
+
+      <!-- Sub-Hero Editorial Row (3 Columns) -->
+      <div class="hero-editorial-row">
+
+        <!-- Column 1: Intro Blurb -->
+        <div class="editorial-col">
+          Hi, I'm <strong>Muhammed Faizal M</strong>. I build scalable, high-performance mobile applications with
+          Flutter and Dart, combining clean architecture, intuitive UI/UX, and reliable backend integrations to create
+          meaningful digital experiences.
+        </div>
+
+        <!-- Column 2: Tech Specialization Blurb -->
+        <div class="editorial-col">
+          I specialize in <strong>Flutter, Dart, Firebase, REST APIs, and state management (GetX, Provider,
+            BLoC)</strong>. Passionate about solving real-world challenges, building fluid 60 FPS interfaces, and
+          shipping enterprise-grade codebases.
+        </div>
+
+        <!-- Column 3: Direct Action Links & Availability -->
+        <div class="editorial-action-col">
+          <a href="#contact" class="editorial-action-link">
+            GET IN TOUCH &rarr;
+          </a>
+          <a href="#projects" class="editorial-action-link"
+            style="font-size: 0.95rem; border-bottom-color: rgba(255,255,255,0.4);">
+            VIEW PROJECTS &darr;
+          </a>
+          <div class="hero-status-tag mt-2">
+            <span class="status-dot"></span> Open to Opportunities
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==========================================================================
+           THE HERO STAGE: Cream Rounded Card + Grid + Portrait + Sticker Badges
+           ========================================================================== -->
+      <div class="hero-stage-container" id="heroStage">
+
+        <!-- Center Developer Portrait -->
+        <div class="stage-portrait-wrapper">
+          <img src="assets/images/developer_portrait.jpg" alt="Muhammed Faizal M - Flutter Developer"
+            class="stage-portrait-img">
+        </div>
+
+        <!-- STICKER 1: Cyan Circle (Design Strategy / Flutter Engine) -->
+        <div class="sticker sticker-cyan-circle" title="Cross-Platform Flutter Engine">
+          <div class="circle-eyes">● ●</div>
+          <div class="circle-title">FLUTTER<br>ENGINE</div>
+          <div class="circle-sub">CROSS-PLATFORM<br>DART &bull; CLEAN ARCH</div>
+        </div>
+
+        <!-- STICKER 2: Yellow Pill (REST APIs / Firebase / Experiences) -->
+        <div class="sticker sticker-yellow-pill" title="REST APIs & Firebase Integration">
+          <div class="yellow-top">
+            <span>FIREBASE &bull; CLOUD</span>
+            <i class="bi bi-broadcast"></i>
+          </div>
+          <div class="yellow-sub">
+            <i class="bi bi-lightning-charge-fill"></i>
+            <span>60 FPS EXPERIENCES</span>
+          </div>
+        </div>
+
+        <!-- STICKER 3: Orange Rectangle (State Management & Motion) -->
+        <div class="sticker sticker-orange-card" title="State Management: GetX, Provider, BLoC">
+          <div class="orange-title">
+            <span>STATE</span>
+            <i class="bi bi-arrow-right"></i>
+            <span>MGMT</span>
+          </div>
+          <div class="orange-sub">
+            GETX &bull; BLOC &bull; PROVIDER
+          </div>
+        </div>
+
+        <!-- STICKER 4: Hot Pink Badge (Mobile Experience Design) -->
+        <div class="sticker sticker-pink-badge" title="Intuitive Mobile Experience">
+          <div>MOBILE</div>
+          <div>EXPERIENCE</div>
+          <div style="font-size: 1.1rem; margin-top: 2px;">ENGINEERING &copy;</div>
+        </div>
+
+        <!-- STICKER 5: Mint Tag (Scalable Architecture '26) -->
+        <div class="sticker sticker-mint-tag" title="Clean Modular Architecture">
+          <div class="mint-title">SCALABLE APPS &amp;</div>
+          <div class="mint-title">ARCHITECTURE</div>
+          <div class="mint-year">
+            <span>&copy;'26</span>
+            <span>✱</span>
+          </div>
+        </div>
+
+        <!-- STICKER 6: Lime Green Circular Stamp (High Performance & Clean Code) -->
+        <div class="sticker sticker-lime-stamp" title="High Performance & Robust Code">
+          <div class="lime-inner-circle">
+            <i class="bi bi-globe2"></i>
+            <div class="lime-stamp-text">
+              &bull; HIGH PERFORMANCE &bull;<br>CLEAN ARCHITECTURE
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Interactive Feature Drawer Bar -->
+      <div class="stage-interactive-bar">
+        <div class="stage-bar-text">
+          <i class="bi bi-phone"></i>
+          <div>
+            <div class="stage-bar-title">Interactive Flutter Mobile App Simulator Available</div>
+            <div class="stage-bar-sub">Test real prayer countdowns, hot-reload simulation, and layered architecture live
+              in your browser.</div>
+          </div>
+        </div>
+        <button class="btn-brutalist btn-sm-brutalist" data-bs-toggle="modal" data-bs-target="#simulatorModal">
+          <i class="bi bi-play-circle-fill me-1"></i> Launch Simulator
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 01: ABOUT ME
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+
+      <!-- Section Number & Title -->
+      <div class="mb-4">
+        <span class="section-num">01 // ABOUT ME</span>
+        <h2 class="section-title-editorial">TURNING IDEAS INTO MOBILE EXPERIENCES</h2>
+      </div>
+
+      <!-- Professional Summary Card -->
+      <div class="about-card-editorial">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-12 mb-4 mb-lg-0">
+            <p class="about-lead-quote">
+              "I'm a Flutter Developer with professional experience building scalable, cross-platform mobile
+              applications. I specialize in Flutter, Dart, Firebase, REST API integration, state management, and clean
+              architecture. I enjoy solving real-world problems, building intuitive interfaces, and developing
+              maintainable applications that deliver a great user experience."
+            </p>
+            <div class="d-flex align-items-center gap-3 flex-wrap">
+              <span class="badge bg-dark border border-secondary text-light px-3 py-2 font-mono">
+                <i class="devicon-flutter-plain colored me-2"></i>Flutter &amp; Dart Ecosystem
+              </span>
+              <span class="badge bg-dark border border-secondary text-light px-3 py-2 font-mono">
+                <i class="bi bi-shield-check text-warning me-2"></i>Clean Architecture &amp; SOLID
+              </span>
+              <span class="badge bg-dark border border-secondary text-light px-3 py-2 font-mono">
+                <i class="bi bi-cloud-check text-info me-2"></i>Firebase &amp; REST APIs
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 text-center text-lg-end">
+            <img src="assets/images/flutter_hero_visual.jpg" alt="Flutter Mobile Visual"
+              class="img-fluid rounded-4 border border-secondary shadow" style="max-height: 230px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Compact Highlights (Rendered Dynamically via JS) -->
+      <div class="row" id="aboutHighlightsContainer">
+        <!-- Rendered by main.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 02: TECHNICAL SKILLS
+       ========================================================================== -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="mb-4">
+        <span class="section-num">02 // TECHNICAL SKILLS</span>
+        <h2 class="section-title-editorial">ENGINEERING TOOLKIT &amp; STACK</h2>
+        <p class="section-subtitle-editorial">
+          Grouped into comprehensive engineering categories with authentic industry tools. Zero misleading progress
+          meters.
+        </p>
+      </div>
+
+      <!-- Filter Nav Tabs -->
+      <div class="skills-filter-nav" id="skillsFilterNav">
+        <!-- Rendered by main.js -->
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="row" id="skillsCardsContainer">
+        <!-- Rendered by main.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 03: FEATURED PROJECTS
+       ========================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="mb-5">
+        <span class="section-num">03 // FEATURED WORK</span>
+        <h2 class="section-title-editorial">PRODUCTION MOBILE APPLICATIONS</h2>
+        <p class="section-subtitle-editorial">
+          Real-world applications engineered with clean architecture, robust state management, and reliable backend
+          integration.
+        </p>
+      </div>
+
+      <!-- Featured Projects List -->
+      <div id="featuredProjectsContainer">
+        <!-- Rendered by main.js -->
+      </div>
+
+      <!-- Additional Mini Projects Shelf -->
+      <div class="mt-5 pt-4 border-top border-secondary">
+        <div class="mb-4">
+          <span class="section-num">03.1 // MODULAR APPLICATIONS</span>
+          <h3 class="section-title-editorial" style="font-size: 2.2rem;">ADDITIONAL MINI PROJECTS</h3>
+          <p class="section-subtitle-editorial">
+            Focused utility applications and feature explorations built with Dart &amp; Flutter.
+          </p>
+        </div>
+
+        <div class="row" id="miniProjectsContainer">
+          <!-- Rendered by main.js -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 04: PROFESSIONAL EXPERIENCE
+       ========================================================================== -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="mb-5">
+        <span class="section-num">04 // EXPERIENCE</span>
+        <h2 class="section-title-editorial">PROFESSIONAL CAREER JOURNEY</h2>
+        <p class="section-subtitle-editorial">
+          Commercial software engineering experience shipping scalable Flutter solutions.
+        </p>
+      </div>
+
+      <!-- Vertical Timeline -->
+      <div class="timeline-container">
+        <div class="timeline-stem"></div>
+        <div id="experienceTimelineContainer">
+          <!-- Rendered by main.js -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 05: EDUCATION
+       ========================================================================== -->
+  <section class="education-section" id="education">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="mb-5">
+        <span class="section-num">05 // EDUCATION</span>
+        <h2 class="section-title-editorial">EDUCATION &amp; TRAINING</h2>
+        <p class="section-subtitle-editorial">
+          Intensive mobile engineering curriculum and foundational computational studies.
+        </p>
+      </div>
+
+      <!-- Education Cards -->
+      <div class="row" id="educationContainer">
+        <!-- Rendered by main.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 06: CONTACT SECTION
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="mb-5">
+        <span class="section-num">06 // GET IN TOUCH</span>
+        <h2 class="section-title-editorial">LET'S BUILD SOMETHING GREAT TOGETHER</h2>
+        <p class="section-subtitle-editorial">
+          Have an exciting project, a Flutter development opportunity, or an idea you'd like to discuss? I'd love to
+          hear from you.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Left: Contact Details -->
+        <div class="col-lg-5 col-12">
+          <div class="contact-info-card">
+            <h3 class="h4 text-white mb-4">Direct Communication</h3>
+
+            <!-- Email -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <i class="bi bi-envelope-at-fill"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="contact-label">Email Address</div>
+                <a href="mailto:mhdfaizalofficial@gmail.com" class="contact-val">mhdfaizalofficial@gmail.com</a>
+              </div>
+              <button class="btn btn-sm btn-outline-secondary text-light ms-2" onclick="copyEmailToClipboard()"
+                title="Copy Email">
+                <i class="bi bi-clipboard"></i>
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <div class="contact-label">Phone &amp; WhatsApp</div>
+                <a href="tel:+918075374600" class="contact-val">+91 8075374600</a>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <i class="bi bi-linkedin"></i>
+              </div>
+              <div>
+                <div class="contact-label">LinkedIn Profile</div>
+                <a href="https://linkedin.com/in/muhammed-faizal-flutter" target="_blank" rel="noopener noreferrer"
+                  class="contact-val">linkedin.com/in/muhammed-faizal-flutter</a>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <i class="bi bi-github"></i>
+              </div>
+              <div>
+                <div class="contact-label">GitHub Repository</div>
+                <a href="https://github.com/muhammedfaizalm" target="_blank" rel="noopener noreferrer"
+                  class="contact-val">github.com/muhammedfaizalm</a>
+              </div>
+            </div>
+
+            <div class="mt-auto p-3 rounded-3"
+              style="background: rgba(255,208,38,0.06); border: 1px solid rgba(255,208,38,0.2);">
+              <div class="d-flex align-items-center gap-2 mb-1">
+                <i class="bi bi-clock-history text-warning"></i>
+                <span class="text-white fw-bold" style="font-size: 0.88rem;">Prompt Response Guarantee</span>
+              </div>
+              <p class="text-muted mb-0" style="font-size: 0.82rem;">
+                Available for full-time Flutter roles, contract engineering, and mobile architecture consulting.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="col-lg-7 col-12">
+          <div class="contact-form-card">
+            <h3 class="h4 text-white mb-2">Send an Inquiry</h3>
+            <p class="text-muted mb-4" style="font-size: 0.92rem;">
+              Fill out this form to connect. Submitting generates an email draft directly to
+              mhdfaizalofficial@gmail.com.
+            </p>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label-editorial">
+                    Your Name <span class="text-warning">*</span>
+                  </label>
+                  <input type="text" id="contactName" class="form-control-editorial" placeholder="e.g. Sarah Jenkins"
+                    required>
+                  <div class="form-error-feedback">Please enter your name (min 2 characters).</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label-editorial">
+                    Your Email <span class="text-warning">*</span>
+                  </label>
+                  <input type="email" id="contactEmail" class="form-control-editorial"
+                    placeholder="e.g. sarah@company.com" required>
+                  <div class="form-error-feedback">Please provide a valid email address.</div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="contactSubject" class="form-label-editorial">
+                  Subject <span class="text-warning">*</span>
+                </label>
+                <input type="text" id="contactSubject" class="form-control-editorial"
+                  placeholder="e.g. Flutter Mobile Engineer Opportunity" required>
+                <div class="form-error-feedback">Please enter a subject.</div>
+              </div>
+
+              <div class="mb-4">
+                <label for="contactMessage" class="form-label-editorial">
+                  Message <span class="text-warning">*</span>
+                </label>
+                <textarea id="contactMessage" rows="5" class="form-control-editorial"
+                  placeholder="Tell me about your mobile application scope, goals, or role..." required></textarea>
+                <div class="form-error-feedback">Please enter your message (at least 10 characters).</div>
+              </div>
+
+              <button type="submit" class="btn-brutalist w-100 py-3">
+                Send Message &rarr;
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="brand-capsule" style="width: 24px; height: 14px;"></span>
+            <span class="text-white fw-bold">Muhammed Faizal M</span>
+          </div>
+          <div class="footer-copy">
+            &copy; 2026 Muhammed Faizal M. All rights reserved.
+          </div>
+        </div>
+
+        <div class="footer-tech-note">
+          Designed with Editorial Neo-Brutalism &bull; HTML5, CSS3, Bootstrap 5 &amp; Vanilla JS
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL 1: PROJECT DETAILS MODAL
+       ========================================================================== -->
+  <div class="modal fade" id="projectDetailsModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content modal-content-custom">
+        <div class="modal-header modal-header-custom">
+          <h3 class="modal-title h5 text-white" id="projectModalTitle">Project Details</h3>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="modal-body modal-body-custom" id="projectModalBody">
+          <!-- Injected dynamically by main.js -->
+        </div>
+        <div class="modal-footer modal-footer-custom">
+          <button type="button" class="btn-brutalist-dark btn-sm-brutalist" data-bs-dismiss="modal">Close</button>
+          <a href="#" id="projectModalGithub" target="_blank" rel="noopener noreferrer"
+            class="btn-brutalist btn-sm-brutalist">
+            <i class="bi bi-github"></i> View GitHub Repo &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: ATS RESUME PREVIEW & PRINT MODAL
+       ========================================================================== -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content modal-content-custom">
+        <div class="modal-header modal-header-custom">
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-file-earmark-person-fill text-warning fs-4"></i>
+            <h3 class="modal-title h5 text-white mb-0" id="resumeModalTitle">Curriculum Vitae — Muhammed Faizal M</h3>
+          </div>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+
+        <div class="modal-body modal-body-custom">
+          <!-- ATS Printable Sheet -->
+          <div class="resume-sheet-preview" id="printableAtsResume">
+            <div class="text-center mb-3">
+              <h1>MUHAMMED FAIZAL M</h1>
+              <div class="sheet-sub">FLUTTER DEVELOPER &bull; MOBILE APP ENGINEER</div>
+              <div class="sheet-contact">
+                Email: mhdfaizalofficial@gmail.com &nbsp;|&nbsp; Phone: +91 8075374600 &nbsp;|&nbsp; Location: Kerala,
+                India<br>
+                LinkedIn: linkedin.com/in/muhammed-faizal-flutter &nbsp;|&nbsp; GitHub: github.com/muhammedfaizalm
+              </div>
+            </div>
+
+            <h2>Professional Summary</h2>
+            <p>
+              Flutter Developer with professional experience building scalable, cross-platform mobile applications.
+              Specialized in Flutter, Dart, Firebase, REST API integration, state management (GetX, Provider, BLoC), and
+              clean architecture. Passionate about solving real-world problems with intuitive UI/UX, robust testing, and
+              60 FPS performance.
+            </p>
+
+            <h2>Technical Skills</h2>
+            <p>
+              <strong>Programming Languages:</strong> Dart, Java, C, JavaScript, HTML5, CSS3<br>
+              <strong>Frameworks &amp; Mobile:</strong> Flutter SDK, Android Studio, Cross-Platform Development, REST
+              APIs<br>
+              <strong>State Management:</strong> GetX, Provider, BLoC Pattern<br>
+              <strong>Databases &amp; Storage:</strong> Cloud Firestore, Firebase Realtime Database, SQLite, Hive,
+              SharedPreferences, MySQL<br>
+              <strong>Tools &amp; Platforms:</strong> Git, GitHub, Postman, Android Studio, VS Code, Figma<br>
+              <strong>Practices:</strong> Clean Architecture, MVC, API Integration, JSON Parsing, Performance
+              Optimization, OOP
+            </p>
+
+            <h2>Professional Experience</h2>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between align-items-baseline">
+                <strong>Software Developer (Flutter) &mdash; Softroniics Technologies</strong>
+                <span class="text-muted" style="font-size: 0.85rem;">September 2024 &ndash; Present</span>
+              </div>
+              <ul class="mb-2 mt-1 ps-3">
+                <li>Developed and maintained scalable, responsive mobile applications using Flutter and Dart.</li>
+                <li>Applied clean architecture and modular design principles for maintainable, testable codebases.</li>
+                <li>Implemented robust state management solutions utilizing GetX, Provider, and BLoC patterns.</li>
+                <li>Integrated Firebase Authentication, Cloud Firestore, Cloud Messaging (FCM), and Firebase Storage.
+                </li>
+                <li>Built and consumed RESTful APIs with structured JSON serialization, caching, and error-handling
+                  strategies.</li>
+                <li>Optimized Flutter UI rendering, memory footprints, and frame rates for smooth 60fps animations.</li>
+                <li>Collaborated closely with UI/UX designers using Figma to implement pixel-perfect layouts.</li>
+                <li>Participated in code reviews, sprint planning, and agile software development workflows.</li>
+              </ul>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between align-items-baseline">
+                <strong>Flutter Developer Intern &mdash; Mentorow Technologies</strong>
+                <span class="text-muted" style="font-size: 0.85rem;">February 2024 &ndash; July 2024 | Kochi,
+                  Kerala</span>
+              </div>
+              <ul class="mb-2 mt-1 ps-3">
+                <li>Built cross-platform Flutter applications and modular, reusable UI component libraries.</li>
+                <li>Learned and implemented end-to-end Firebase backend integration and authentication flows.</li>
+                <li>Worked with REST API client communication, data modeling, and asynchronous programming in Dart.</li>
+                <li>Practiced clean architecture, MVC structures, and collaborative version control using Git &amp;
+                  GitHub.</li>
+              </ul>
+            </div>
+
+            <h2>Featured Projects</h2>
+            <div class="mb-2">
+              <strong>1. Blessing App &mdash; Islamic Lifestyle Companion:</strong> Location-based prayer times tracking
+              with precision calculations, fasting tracker with reminders &amp; progress monitoring, Quran reading
+              module, automated notification alerts, clean architecture.
+            </div>
+            <div class="mb-2">
+              <strong>2. NCC Management App &mdash; Cadet &amp; Officer Portal:</strong> Cadet attendance tracking,
+              officer-cadet communications, real-time Cloud Firestore updates, and secure role-based authentication.
+            </div>
+            <div class="mb-2">
+              <strong>3. Expenxo &mdash; Personal Expense Tracker:</strong> Categorized expense tracking, daily/monthly
+              analytics charts, financial dashboard, and local persistence using Hive and SQLite.
+            </div>
+            <div class="mb-2">
+              <strong>4. Chatifly &mdash; Real-Time Chat Application:</strong> One-to-one and group messaging, Firebase
+              Auth, low-latency Firestore listeners, FCM push notifications, and clean architecture.
+            </div>
+            <div class="mb-2">
+              <strong>5. AutoResQ &mdash; Emergency Assistance Application:</strong> Emergency reporting, live location
+              tracking with Google Maps API, intelligent mechanic locator, and real-time roadside alerts.
+            </div>
+
+            <h2>Education</h2>
+            <div class="mb-2 d-flex justify-content-between">
+              <div><strong>Flutter Development Program</strong> &mdash; Brototype, Trivandrum</div>
+              <span class="text-muted" style="font-size: 0.85rem;">March 2023 &ndash; December 2023</span>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div><strong>Bachelor's Degree</strong> &mdash; Travancore College, Trivandrum</div>
+              <span class="text-muted" style="font-size: 0.85rem;">2018 &ndash; 2021</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer modal-footer-custom">
+          <button type="button" class="btn-brutalist-dark btn-sm-brutalist" onclick="window.print()">
+            <i class="bi bi-printer me-1"></i> Print Resume
+          </button>
+          <a href="assets/resume/Muhammed_Faizal_Flutter_Developer_Resume.pdf"
+            download="Muhammed_Faizal_Flutter_Developer_Resume.pdf" class="btn-brutalist btn-sm-brutalist">
+            <i class="bi bi-download me-1"></i> Download PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 3: INTERACTIVE FLUTTER PHONE SIMULATOR MODAL
+       ========================================================================== -->
+  <div class="modal fade" id="simulatorModal" tabindex="-1" aria-labelledby="simulatorModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-custom">
+        <div class="modal-header modal-header-custom">
+          <div class="d-flex align-items-center gap-2">
+            <i class="devicon-flutter-plain colored fs-5"></i>
+            <h3 class="modal-title h6 text-white mb-0" id="simulatorModalTitle">Live Flutter Application Simulator</h3>
+          </div>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+
+        <div class="modal-body modal-body-custom d-flex justify-content-center p-3">
+
+          <!-- Phone Simulator Component -->
+          <div class="sim-phone-frame" style="width: 320px; height: 580px; margin: 0 auto;">
+
+            <!-- Dynamic Island Notch -->
+            <div class="sim-phone-notch" style="width: 90px; height: 20px;">
+              <div class="sim-notch-sensor"></div>
+              <div class="sim-notch-camera"></div>
+            </div>
+
+            <!-- Controls Tabs -->
+            <div class="sim-controls-bar">
+              <button class="sim-tab-btn active" data-view="app">
+                <i class="bi bi-phone"></i> Blessing App
+              </button>
+              <button class="sim-tab-btn" data-view="code">
+                <i class="bi bi-code-slash"></i> Dart Code
+              </button>
+              <button class="sim-tab-btn" data-view="arch">
+                <i class="bi bi-diagram-3"></i> Architecture
+              </button>
+            </div>
+
+            <!-- Screen Viewport -->
+            <div class="sim-screen-container">
+
+              <!-- Tab 1: Live Prayer Time Demo -->
+              <div class="sim-screen-view active" id="view-app">
+                <div class="sim-app-header">
+                  <div class="sim-app-title" style="font-size: 0.8rem;">
+                    <i class="bi bi-moon-stars-fill text-success"></i> Blessing App
+                  </div>
+                  <span class="badge bg-dark border border-secondary text-light font-mono" style="font-size: 0.65rem;">
+                    <i class="bi bi-geo-alt-fill text-danger"></i> Kerala
+                  </span>
+                </div>
+
+                <div class="sim-prayer-hero" style="padding: 12px;">
+                  <span style="font-size: 0.68rem; text-transform: uppercase; color: #34D399; font-weight: 700;">
+                    Next Prayer: Maghrib
+                  </span>
+                  <div class="sim-countdown-val" id="simCountdown" style="font-size: 1.4rem;">01:24:37</div>
+                  <div style="font-size: 0.7rem; color: #94A3B8;">
+                    <i class="bi bi-bell-fill me-1"></i> Reminders Active
+                  </div>
+                </div>
+
+                <div class="sim-schedule-list" style="gap: 6px;">
+                  <div class="sim-schedule-item">
+                    <span><i class="bi bi-brightness-alt-high text-warning me-2"></i>Fajr</span>
+                    <span class="font-mono text-muted">05:12 AM</span>
+                  </div>
+                  <div class="sim-schedule-item">
+                    <span><i class="bi bi-sun-fill text-warning me-2"></i>Dhuhr</span>
+                    <span class="font-mono text-muted">12:18 PM</span>
+                  </div>
+                  <div class="sim-schedule-item">
+                    <span><i class="bi bi-cloud-sun text-info me-2"></i>Asr</span>
+                    <span class="font-mono text-muted">03:42 PM</span>
+                  </div>
+                  <div class="sim-schedule-item active">
+                    <span><i class="bi bi-sunset-fill text-success me-2"></i>Maghrib</span>
+                    <span class="font-mono">06:21 PM</span>
+                  </div>
+                  <div class="sim-schedule-item">
+                    <span><i class="bi bi-moon-fill text-primary me-2"></i>Isha</span>
+                    <span class="font-mono text-muted">07:35 PM</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tab 2: Dart Clean Architecture Code -->
+              <div class="sim-screen-view" id="view-code">
+                <div class="sim-app-header mb-1">
+                  <div class="sim-app-title font-mono" style="font-size: 0.72rem;">
+                    <i class="devicon-dart-plain colored"></i> prayer_usecase.dart
+                  </div>
+                  <span class="badge bg-warning text-dark" style="font-size: 0.65rem;">Clean Arch</span>
+                </div>
+
+                <div class="sim-code-box">
+                  <span class="sim-code-comment">// Domain Layer: UseCase</span>
+                  <span class="sim-code-keyword">class</span> <span class="sim-code-class">GetPrayerSchedule</span> {
+                  <span class="sim-code-keyword">final</span> <span class="sim-code-class">PrayerRepository</span> repo;
+                  <span class="sim-code-class">GetPrayerSchedule</span>(<span
+                    class="sim-code-keyword">this</span>.repo);
+
+                  <span class="sim-code-class">Future</span>&lt;<span class="sim-code-class">PrayerTimes</span>&gt;
+                  <span class="sim-code-func">call</span>(
+                  <span class="sim-code-class">Coordinates</span> coords
+                  ) <span class="sim-code-keyword">async</span> {
+                  <span class="sim-code-keyword">return</span> <span class="sim-code-keyword">await</span> repo.<span
+                    class="sim-code-func">getTimes</span>(
+                  lat: coords.latitude,
+                  lng: coords.longitude,
+                  );
+                  }
+                  }
+                </div>
+
+                <button class="sim-hot-reload-btn mt-2" id="simHotReloadBtn">
+                  <i class="bi bi-lightning-charge-fill"></i> Perform Hot Reload
+                </button>
+                <div class="sim-reload-feedback" id="simReloadFeedback">Click to test Hot Reload engine</div>
+              </div>
+
+              <!-- Tab 3: System Architecture -->
+              <div class="sim-screen-view" id="view-arch">
+                <div class="sim-app-header mb-2">
+                  <div class="sim-app-title" style="font-size: 0.78rem;">
+                    <i class="bi bi-layers-half text-warning"></i> Layered Architecture
+                  </div>
+                </div>
+
+                <div class="sim-arch-layer">
+                  <div class="sim-arch-name">
+                    <span>1. Presentation Layer</span>
+                    <i class="bi bi-phone"></i>
+                  </div>
+                  <div class="sim-arch-sub">Widgets, UI Pages, BLoC / GetX Controllers</div>
+                </div>
+
+                <div class="sim-arch-layer">
+                  <div class="sim-arch-name">
+                    <span>2. Domain Layer</span>
+                    <i class="bi bi-cpu"></i>
+                  </div>
+                  <div class="sim-arch-sub">Entities, Use Cases, Repository Contracts</div>
+                </div>
+
+                <div class="sim-arch-layer">
+                  <div class="sim-arch-name">
+                    <span>3. Data Layer</span>
+                    <i class="bi bi-database"></i>
+                  </div>
+                  <div class="sim-arch-sub">Models, JSON Serialization, Data Source Repos</div>
+                </div>
+
+                <div class="sim-arch-layer">
+                  <div class="sim-arch-name">
+                    <span>4. Cloud &amp; Persistence</span>
+                    <i class="bi bi-cloud-arrow-up"></i>
+                  </div>
+                  <div class="sim-arch-sub">Firebase Firestore, REST APIs, Hive, SQLite</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-footer modal-footer-custom">
+          <button type="button" class="btn-brutalist-dark btn-sm-brutalist" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5.3.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.bundle.min.js"></script>
+
+  <!-- Portfolio Logic -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN & ADAPTIVE LAYOUTS (css/responsive.css)
+   ========================================================================== */
+
+/* Large Tablets & Medium Screens (<= 1199px) */
+@media (max-width: 1199px) {
+  .hero-giant-title {
+    font-size: clamp(3.2rem, 10vw, 7.5rem);
+  }
+
+  .sticker-cyan-circle {
+    width: 120px;
+    height: 120px;
+    left: 6%;
+  }
+
+  .sticker-cyan-circle .circle-title {
+    font-size: 1.1rem;
+  }
+
+  .sticker-yellow-pill {
+    font-size: 1.05rem;
+    left: 2%;
+    bottom: 90px;
+  }
+
+  .sticker-pink-badge {
+    right: 14%;
+    font-size: 1.25rem;
+  }
+
+  .sticker-mint-tag {
+    right: 2%;
+    top: 140px;
+  }
+
+  .sticker-lime-stamp {
+    right: 8%;
+    width: 120px;
+    height: 120px;
+  }
+
+  .lime-inner-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Tablets (<= 991px) */
+@media (max-width: 991px) {
+  .hero-editorial-section {
+    padding-top: 110px;
+  }
+
+  .hero-giant-title {
+    font-size: clamp(2.8rem, 9.5vw, 5.5rem);
+    white-space: normal;
+  }
+
+  .hero-editorial-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .editorial-action-col {
+    align-items: flex-start;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .nav-menu-wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 290px;
+    height: 100vh;
+    background: #0E1116;
+    border-left: 1px solid var(--border-subtle);
+    padding: 80px 30px 40px 30px;
+    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1050;
+  }
+
+  .nav-menu-wrapper.open {
+    right: 0;
+  }
+
+  .nav-links-editorial {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .nav-link-item {
+    font-size: 1.15rem;
+  }
+
+  .nav-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    z-index: 1040;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .nav-backdrop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hero-stage-container {
+    min-height: 440px;
+    border-radius: 30px 100px 100px 30px;
+  }
+
+  .stage-portrait-img {
+    max-height: 380px;
+  }
+
+  .sticker-cyan-circle {
+    top: 15px;
+    left: 4%;
+    width: 100px;
+    height: 100px;
+    padding: 6px;
+  }
+
+  .sticker-cyan-circle .circle-title {
+    font-size: 0.95rem;
+  }
+
+  .sticker-cyan-circle .circle-sub {
+    font-size: 0.5rem;
+  }
+
+  .sticker-yellow-pill {
+    left: 2%;
+    bottom: 50px;
+    padding: 6px 12px;
+    font-size: 0.95rem;
+  }
+
+  .sticker-orange-card {
+    left: 8%;
+    bottom: 10px;
+    padding: 8px 12px;
+  }
+
+  .sticker-orange-card .orange-title {
+    font-size: 1.1rem;
+  }
+
+  .sticker-pink-badge {
+    right: 8%;
+    top: 80px;
+    font-size: 1.1rem;
+    padding: 6px 12px;
+  }
+
+  .sticker-mint-tag {
+    right: 2%;
+    top: 180px;
+    font-size: 0.95rem;
+    padding: 6px 12px;
+  }
+
+  .sticker-lime-stamp {
+    right: 4%;
+    bottom: -15px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .lime-inner-circle {
+    width: 84px;
+    height: 84px;
+  }
+
+  .lime-inner-circle i {
+    font-size: 1.3rem;
+  }
+
+  .lime-stamp-text {
+    font-size: 0.55rem;
+  }
+
+  .project-content-pane {
+    padding: 28px;
+  }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  .hero-giant-title {
+    font-size: 3rem;
+    line-height: 0.95;
+  }
+
+  .hero-stage-container {
+    min-height: 360px;
+    border-radius: 24px 60px 60px 24px;
+  }
+
+  .stage-portrait-img {
+    max-height: 300px;
+  }
+
+  /* Compact sticker positioning on mobile */
+  .sticker-cyan-circle {
+    top: 10px;
+    left: 2%;
+    width: 85px;
+    height: 85px;
+  }
+
+  .sticker-cyan-circle .circle-title {
+    font-size: 0.8rem;
+  }
+
+  .sticker-yellow-pill {
+    display: none; /* Hide to prevent cluttering mobile screen */
+  }
+
+  .sticker-orange-card {
+    left: 4%;
+    bottom: 8px;
+    padding: 6px 10px;
+  }
+
+  .sticker-orange-card .orange-title {
+    font-size: 0.95rem;
+  }
+
+  .sticker-pink-badge {
+    right: 4%;
+    top: 40px;
+    font-size: 0.95rem;
+    padding: 6px 10px;
+  }
+
+  .sticker-mint-tag {
+    display: none; /* Hide overflow on mobile */
+  }
+
+  .sticker-lime-stamp {
+    right: 4%;
+    bottom: -10px;
+    width: 85px;
+    height: 85px;
+  }
+
+  .lime-inner-circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .skills-items-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline-stem {
+    left: 14px;
+  }
+
+  .timeline-marker {
+    left: 5px;
+  }
+
+  .timeline-item {
+    padding-left: 45px;
+  }
+
+  .timeline-card {
+    padding: 20px;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    padding: 24px;
+  }
+
+  .resume-sheet-preview {
+    padding: 20px;
+  }
+}
+
+/* Very Small Mobile Screens (<= 480px) */
+@media (max-width: 480px) {
+  .hero-giant-title {
+    font-size: 2.6rem;
+  }
+
+  .editorial-col {
+    font-size: 0.95rem;
+  }
+
+  .skills-items-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-actions-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-actions-row .btn-brutalist,
+  .project-actions-row .btn-brutalist-dark {
+    width: 100%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Reduced Motion Preference for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .sticker:hover {
+    transform: none !important;
+  }
+}
+
+/* Print Styles for ATS Resume Modal */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printableAtsResume, #printableAtsResume * {
+    visibility: visible;
+  }
+
+  #printableAtsResume {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .modal-footer-custom, .btn-close-custom {
+    display: none !important;
+  }
+}
